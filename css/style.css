@@ -217,13 +217,13 @@ body {
 .conacts-section,
 .tech-skills-section,
 .soft-skills-section {
-  margin: 20px 0 0 20px;
+  margin: 15px 0 0 15px;
 }
 .sidebar-title {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 20px;
   color: #fff;
   margin-bottom: 10px;
 }
