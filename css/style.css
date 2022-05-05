@@ -58,7 +58,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #595959;
+  color: #000000;
 }
 
 /* my projects section */
@@ -87,7 +87,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #595959;
+  color: #000000;
 }
 
 .my-projects-aftertext {
@@ -97,7 +97,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #0b203f;
+  color: #000000;
 }
 
 .my-projects-link {
@@ -111,6 +111,9 @@ body {
 .my-projects-gitlink{
 /* font-style: oblique; */
 font-style: normal;
+text-decoration: none;
+color: #000000;
+text-decoration: underline;
 }
 
 .my-projects-bracket {
@@ -168,7 +171,7 @@ font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #595959;
+  color: #000000;
 }
 
 .my-work-expirience-comany-block {
@@ -263,7 +266,7 @@ font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
-  color: #0b203f;
+  color: #000000;
   margin-bottom: 5px;
 }
 
