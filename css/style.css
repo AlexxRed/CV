@@ -39,7 +39,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 18px;
-  color: #000;
+  color: #000000;
   margin-bottom: 20px;
 }
 
@@ -48,7 +48,7 @@ body {
   font-weight: bold;
   font-size: 30px;
   line-height: 18px;
-  color: rgb(7, 29, 75);
+  color: #071d4b;
   margin-bottom: 20px;
 }
 .about-me-description {
@@ -105,7 +105,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
-  color: #fb6d3a;
+  color: #071d4b;
 }
 
 .my-projects-gitlink{
@@ -135,7 +135,7 @@ text-decoration: underline;
   margin: 0px;
 }
 .my-work-expirience-company {
-  color: #fb6d3a;
+  color: #071d4b;
 }
 .my-work-expirience-position {
   font-style: normal;
@@ -149,7 +149,7 @@ text-decoration: underline;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #a8a8a8;
+  color: #000000;
   margin: 0 0 10px 0;
 }
 .my-work-expirience-line {
@@ -194,7 +194,7 @@ text-decoration: underline;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  color: #fb6d3a;
+  color: #071d4b;
   margin-bottom: 10px;
 }
 
@@ -212,7 +212,7 @@ text-decoration: underline;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #a8a8a8;
+  color: #000000;
   margin-top: 10px;
 }
 
@@ -252,7 +252,6 @@ text-decoration: underline;
 .contact-section-type {
   display: block;
   font-style: normal;
-  font-weight: bold;
   font-size: 14px;
   line-height: 18px;
   color: #fff;
@@ -263,10 +262,10 @@ text-decoration: underline;
   display: block;
   text-decoration: none;
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 14px;
   line-height: 18px;
-  color: #000000;
+  color: #fff;
   margin-bottom: 5px;
 }
 
@@ -276,7 +275,7 @@ text-decoration: underline;
   color: #fff;
 }
 .skills-item {
-  color: #fb6d3a;
+  color: #071d4b;
 }
 .skills-item-text {
   font-style: normal;
