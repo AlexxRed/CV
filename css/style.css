@@ -19,16 +19,15 @@ body {
 /* main content section */
 
 .main-content-secion {
-  padding: 10px 40px 40px 60px;
+  padding: 0px 25px 40px 25px;
 }
 
 .main-content-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 18px;
   color: #000;
-  margin-bottom: 10px;
 }
 
 /* about me section */
@@ -39,7 +38,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 10px;
+  line-height: 18px;
   color: #000;
   margin-bottom: 20px;
 }
@@ -47,8 +46,8 @@ body {
 .about-me-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
-  line-height: 25px;
+  font-size: 30px;
+  line-height: 18px;
   color: rgb(7, 29, 75);
   margin-bottom: 20px;
 }
@@ -70,7 +69,8 @@ body {
 }
 
 .my-projects-list {
-  padding: 0 0 0 17px;
+  list-style: none;
+  padding: 0px;
 }
 
 .my-project-item {
@@ -79,11 +79,14 @@ body {
 }
 
 .my-projects-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-left: 5px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 18px;
   color: #595959;
 }
 
@@ -92,24 +95,29 @@ body {
   margin: 0px 0px 5px 0px;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 18px;
   color: #0b203f;
 }
 
 .my-projects-link {
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 18px;
   color: #fb6d3a;
 }
 
+.my-projects-gitlink{
+/* font-style: oblique; */
+font-style: normal;
+}
+
 .my-projects-bracket {
-  font-style: normal;
+  font-style: oblique;
   font-weight: bold;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 18px;
   color: #000000;
 }
 
@@ -129,23 +137,23 @@ body {
 .my-work-expirience-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
   margin: 0 0 10px 0;
 }
 .my-work-expirience-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 18px;
   color: #a8a8a8;
   margin: 0 0 10px 0;
 }
 .my-work-expirience-line {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 18px;
   color: #000000;
 }
 
@@ -158,7 +166,7 @@ body {
 .my-work-expirience-duty {
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 18px;
   color: #595959;
 }
@@ -173,12 +181,16 @@ body {
   margin-top: 15px;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 18px;
   color: #000000;
+  margin-bottom: 15px;
 }
 
 .my-education-expirience {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
   color: #fb6d3a;
   margin-bottom: 10px;
 }
@@ -187,7 +199,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 18px;
   color: #000000;
   margin: 0 0 10px 0;
 }
@@ -195,8 +207,8 @@ body {
 .my-education-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 18px;
   color: #a8a8a8;
   margin-top: 10px;
 }
@@ -204,8 +216,8 @@ body {
 .my-education-line {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 18px;
   color: #000000;
 }
 
@@ -216,7 +228,9 @@ body {
   padding: 20px 0;
 }
 .photo {
-  width: 370px;
+  display: block;
+  width: 368px;
+  padding: 1px;
 }
 .conacts-section,
 .tech-skills-section,
@@ -227,26 +241,30 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
-  line-height: 10px;
+  line-height: 18px;
   color: #fff;
   margin-bottom: 10px;
 }
 /* contacts section */
 .contact-section-type {
+  display: block;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 18px;
   color: #fff;
   margin-right: 5px;
+  margin-bottom: 10px;
 }
 .contact-section-link {
+  display: block;
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 18px;
   color: #0b203f;
+  margin-bottom: 5px;
 }
 
 /* skills section */
@@ -261,6 +279,11 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 18px;
   color: #fff;
+}
+
+h4{
+  margin: 0px;
+  font-size: 14px;
 }
