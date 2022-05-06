@@ -153,11 +153,13 @@ text-decoration: underline;
   margin: 0 0 10px 0;
 }
 .my-work-expirience-line {
+  display: block;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
+  margin-bottom: 10px;
 }
 
 .my-work-expirience-duties {
@@ -228,7 +230,7 @@ text-decoration: underline;
 .sidebar-section {
   background-color: #205f83;
   width: 370px;
-  padding: 20px 0;
+  padding: 40px 0px 0px;
 }
 .photo {
   display: block;
@@ -238,7 +240,10 @@ text-decoration: underline;
 .conacts-section,
 .tech-skills-section,
 .soft-skills-section {
-  margin: 15px 0 0 15px;
+  display: block;
+  margin: 15px 0 0 70px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 .sidebar-title {
   font-style: normal;
@@ -275,7 +280,7 @@ text-decoration: underline;
   color: #fff;
 }
 .skills-item {
-  color: #071d4b;
+  color: #ffffff;
 }
 .skills-item-text {
   font-style: normal;
