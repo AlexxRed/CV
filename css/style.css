@@ -11,7 +11,7 @@ body {
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   position: absolute;
-  height: 1319px;
+  height: 1350px;
   left: -32px;
   top: 52px;
 }
@@ -25,28 +25,29 @@ body {
 .main-content-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 16px;
   color: #000;
+  margin: 0px;
 }
 
 /* about me section */
 .about-me-section {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .about-me-proffesion {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .about-me-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 18px;
   color: #071d4b;
   margin-bottom: 20px;
@@ -57,7 +58,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 14px;
   color: #000000;
 }
 
@@ -187,13 +188,13 @@ text-decoration: underline;
 /* my education section */
 
 .my-education-title {
-  margin-top: 15px;
+  margin-top: 10px;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 16px;
   color: #000000;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .my-education-expirience {
@@ -208,7 +209,7 @@ text-decoration: underline;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 16px;
   color: #000000;
   margin: 0 0 10px 0;
 }
@@ -217,7 +218,7 @@ text-decoration: underline;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 16px;
   color: #000000;
   margin-top: 10px;
 }
