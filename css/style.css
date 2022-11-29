@@ -68,6 +68,10 @@ body {
   margin-bottom: 20px;
 }
 
+.main-content-title {
+  margin: 0px;
+}
+
 .my-projects-list {
   list-style: none;
   padding: 0px;
